@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Thasadith&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(67, 100, 102);
+}
+h2{
+    margin-top: 50px;
+    color: white;
+}
+.wrapper{
+display: flex;
+align-items: center;
+max-width: 350px;
+justify-content: space-between;
+width: 100%;
+background: rgb(60, 61, 56);
+padding: 35px;
+border-radius: 16px;
+box-shadow: 0 5px 10px rgb(204, 204, 204,0.3);
+}
+.wrapper .input-box{
+    font-size: 16px;
+    font-weight: 400px;
+    color: aliceblue;
+    margin-bottom: 2px;
+}
+.wrapper .icon{
+    font-size: 25px;
+    color: #fff;
+    margin-top: 20px;
+}
+.wrapper .input-box input {
+    max-width: 100px;
+    height: 50px;
+    border-radius: 8px;
+    outline: none;
+    border: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: #666464;
+}
+.input-box input::-webkit-inner-spin-button,
+.input-box input::-webkit-outer-spin-button{
+    display: none;
+}
